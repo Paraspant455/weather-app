@@ -1,0 +1,99 @@
+/* ---------- Base Styles ---------- */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: background 0.5s, color 0.5s;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+input {
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* Default button */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+#weatherResult {
+  margin-top: 20px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.forecast-day,
+.history-item {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ---------- Day Mode ---------- */
+.day {
+  background: linear-gradient(to bottom, #56ccf2, #fceabb);
+  color: #222;
+}
+
+.day button {
+  background: #0078d7;
+  color: #fff;
+}
+
+.day button:hover {
+  background: #005fa3;
+}
+
+.day .forecast-day,
+.day .history-item {
+  background: rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+
+.day .history-item:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- Night Mode ---------- */
+.night {
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.night button {
+  background: #ff7eb3;
+  color: #000;
+}
+
+.night button:hover {
+  background: #ff4f81;
+}
+
+.night .forecast-day,
+.night .history-item {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.night .history-item:hover {
+  background: rgba(255, 255, 255, 0.4);
+}

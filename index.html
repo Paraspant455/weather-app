@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h2>☁️ Weather App</h2>
+
+    <!-- Search Section -->
+    <section class="search-box">
+      <label for="cityInput" class="visually-hidden">Enter city name</label>
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="searchBtn">Get Weather</button>
+    </section>
+
+    <!-- Weather Result Section -->
+    <section id="weatherResult"></section>
+
+    <!-- Search History Section -->
+    <section class="history-section">
+      <h4>🔎 Search History</h4>
+      <div id="history"></div>
+      <button id="clearHistory">🗑 Clear History</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
