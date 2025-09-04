@@ -1,3 +1,7 @@
+# 🌤 Weather App  
+
+[![Live Demo](https://img.shields.io/badge/🌍%20Live-Demo-brightgreen)](https://paraspant455.github.io/weather-app/)
+
 # 🌤 Weather App
 
 A simple and interactive **Weather App** built using **HTML, CSS, and JavaScript**.  
