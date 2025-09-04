@@ -23,11 +23,6 @@ It fetches real-time weather data using the [WeatherAPI](https://www.weatherapi.
 
 ---
 
-## 📷 Screenshots
-_(Add screenshots of your app here after running it and taking snapshots)_
-
----
-
 ## ⚡ How to Use
 1. Clone this repo:
    ```bash
