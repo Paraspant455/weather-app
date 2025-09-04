@@ -2,7 +2,6 @@
 
 [![Live Demo](https://img.shields.io/badge/🌍%20Live-Demo-brightgreen)](https://paraspant455.github.io/weather-app/)
 
-# 🌤 Weather App
 
 A simple and interactive **Weather App** built using **HTML, CSS, and JavaScript**.  
 It fetches real-time weather data using the [WeatherAPI](https://www.weatherapi.com/) and displays the current weather along with a 5-day forecast.  
